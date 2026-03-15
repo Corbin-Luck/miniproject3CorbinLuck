@@ -39,6 +39,6 @@ def create_app(test_config=None):
 
     from . import ticket
     app.register_blueprint(ticket.bp)
-    app.add_url_rule('/', endpoint='index')
+    app.add_url_rule('/', endpoint='list')
 
     return app

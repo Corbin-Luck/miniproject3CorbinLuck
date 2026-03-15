@@ -15,7 +15,7 @@ from flaskr.db import get_db
 bp = Blueprint('ticket', __name__)
 
 @bp.route('/')
-def index():
+def list():
     db = get_db()
     posts = db.execute(
         'SELECT p.id, title, body, created, author_id, username'

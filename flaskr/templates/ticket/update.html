@@ -22,7 +22,7 @@
   <button class="danger" onclick="openModal()">Delete</button>
 
   <!-- Delete Form (hidden submit) -->
-  <form id="deleteForm" action="{{ url_for('blog.delete', id=post['id']) }}" method="post"></form>
+  <form id="deleteForm" action="{{ url_for('ticket.delete', id=post['id']) }}" method="post"></form>
 
   <!-- Modal -->
   <div id="deleteModal" class="modal">
@@ -64,7 +64,7 @@
       background: #b02a37;
     }
 
-    /* Modal styling *
+    /* Modal styling */
     .modal {
       display: none;
       position: fixed;

@@ -65,7 +65,7 @@ def login():
         if error is None:
             session.clear()
             session['user_id'] = user['id']
-            return redirect(url_for('index'))
+            return redirect(url_for('list'))
 
         flash(error)
 
@@ -87,7 +87,7 @@ def load_logged_in_user():
 @bp.route('/logout')
 def logout():
     session.clear()
-    return redirect(url_for('index'))
+    return redirect(url_for('list'))
 
 ## Checks if user is logged in to do a certain action
 def login_required(view):
