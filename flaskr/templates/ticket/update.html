@@ -18,8 +18,11 @@
 
   <hr>
 
-  <!-- Delete Button -->
-  <button class="danger" onclick="openModal()">Delete</button>
+  <!-- Delete Button & Back Button-->
+  <div style="display: flex; justify-content: space-between;">
+    <button class="danger" onclick="openModal()">Delete</button>
+    <button ="button" type="back" onclick="history.back()">Back</button>
+  </div>
 
   <!-- Delete Form (hidden submit) -->
   <form id="deleteForm" action="{{ url_for('ticket.delete', id=post['id']) }}" method="post"></form>
