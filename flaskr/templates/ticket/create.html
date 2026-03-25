@@ -10,6 +10,9 @@
     <input name="title" id="title" value="{{ request.form['title'] }}" required>
     <label for="body">Issue Description</label>
     <textarea name="body" id="body">{{ request.form['body'] }}</textarea>
-    <input type="submit" value="Submit Ticket">
+    <div style="display: flex; justify-content: space-between;">
+      <input type="submit" value="Submit Ticket">
+      <button ="button" type="back" onclick="history.back()">Back</button>
+    </div>
   </form>
 {% endblock %}
