@@ -36,6 +36,7 @@ flask --app flaskr run
 ```
 
 Now that the app is running I would recommend you create an account with the username: admin (all lowercase)
+
 This will give you the admin account that can edit any tickets that are submitted
 
 ## Authors
