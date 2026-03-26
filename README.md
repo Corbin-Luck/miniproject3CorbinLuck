@@ -8,6 +8,9 @@
 Mini Project 3
  
 ## Description
+
+The project is a small IT helpdesk where employees can submit and edit tickets. Employees are also able to register
+a helpdesk account to submit and edit their tickets.
  
 ## Getting Started
  
@@ -47,6 +50,6 @@ Corbin Luck
 ## Acknowledgments
  
 Inspiration, code snippets, etc.
-* [Matplotlib Documentation] (https://matplotlib.org/stable/users/index)
-* [Panda Documentation] (https://pandas.pydata.org/docs/)
-* [Health Care Dataset] (https://www.kaggle.com/datasets/prasad22/healthcare-dataset?resource=download)
+* [Flask Documentation] (https://flask.palletsprojects.com/en/stable/)
+* [Bootstrap Documentation] (https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+* [Jason's Video] (https://www.youtube.com/watch?v=MIlhLcFAbPE)
