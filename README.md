@@ -20,10 +20,21 @@ pip install -r requirements.txt
  
 ### Executing program
  
+
+First you will need to run the following command in the terminal to initialize the SQL database
 ```
-python main.py
+flask --app flaskr init-db
 ```
  
+Then you can either set-up a flask server or run the following command in the terminal
+
+```
+flask --app flaskr run
+```
+
+Now that the app is running I would recommend you create an account with the username: admin (all lowercase)
+This will give you the admin account that can edit any tickets that are submitted
+
 ## Authors
  
 Corbin Luck
